@@ -1,0 +1,27 @@
+main {
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    position: absolute;
+    width: 500px;
+    top: 40%;
+    left: 35%;   
+    background-color: aliceblue;       
+}
+.container p {    
+    text-align: center;
+    margin: 0%;
+}
+.agregar {
+    position: absolute;
+     margin-left: 50%;
+}
+h1 {
+    text-align: center;
+}
+.list-container {
+    font-size: 17px;
+    margin: 10%;  
+    background-color: ghostwhite;
+
+}
