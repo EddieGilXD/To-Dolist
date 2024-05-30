@@ -12,15 +12,18 @@ main {
     text-align: center;
     margin: 0%;
 }
-.agregar {
-    position: absolute;
-     margin-left: 50%;
+.inputs {
+    margin-left: auto;
+    margin-right: auto;
 }
+
 h1 {
     text-align: center;
 }
 form {
-    display: block;
+    display:flex;
+    
+    
 }
 .list-container {
     font-size: 17px;

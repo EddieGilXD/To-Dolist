@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do list</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">    
 </head>
 <body>
     <main>
@@ -15,13 +14,17 @@
             </div>
             <p>Agregar tarea!</p>
             <form>
-                <input id="in" class="To-do" type="text">
-                <input for="in" class="agregar" type="button" value="+">
+                <div class="inputs" id="newTask">
+                    <input id="taskInput" class="to-do" type="text">
+                    <button  id="push" class="agregar">+</button>
+                </div>
             </form>
             <div class="list-container">
+                <ul id="taskList" ></ul>
                 <p>Esto solo es un texto de prueba</p>
             </div>
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
