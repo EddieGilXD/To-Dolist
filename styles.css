@@ -13,8 +13,12 @@ main {
     margin: 0%;
 }
 .inputs {
-    margin-left: auto;
+    margin-left: 30%;
     margin-right: auto;
+}
+
+.inputs input{
+  
 }
 
 h1 {
@@ -30,4 +34,9 @@ form {
     margin: 10%;  
     background-color: ghostwhite;
 
+}
+
+
+#taskList button{    
+    margin-left: 10px;
 }
